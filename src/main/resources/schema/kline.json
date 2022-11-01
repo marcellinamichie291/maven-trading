@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "javaType": "com.tradingbot.types.Kline",
+  "properties": {
+
+    "open time": {
+      "type": "number",
+      "format":"utc-millisec"
+    },
+
+    "open": {
+      "type": "number",
+      "default":"0.0"
+    },
+
+    "high": {
+      "type": "number",
+      "default":"0.0"
+    },
+
+    "low": {
+      "type": "number",
+      "default":"0.0"
+    },
+
+    "close": {
+      "type": "number",
+      "default":"0.0"
+    },
+
+    "volume": {
+      "type": "number",
+      "default":"0.0"
+    }
+
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "javaType": "com.tradingbot.types.Trade",
+  "properties": {
+    "Event type": {
+      "type": "string"
+    },
+
+    "Event time": {
+      "type": "number",
+      "format":"utc-millisec"
+    },
+
+    "Symbol": {
+      "type": "string"
+    },
+
+    "Trade ID": {
+      "type": "integer"
+    },
+
+    "Price": {
+      "type": "string"
+    },
+
+    "Quantity": {
+      "type": "string"
+    },
+
+    "Buyer order ID": {
+      "type": "integer"
+    },
+
+
+    "Seller order ID": {
+      "type": "integer"
+    },
+
+
+    "Trade time": {
+      "type": "number",
+      "format":"utc-millisec"
+    },
+
+
+    "buyer the market maker": {
+      "type": "boolean"
+    },
+
+
+    "Ignore": {
+      "type": "boolean"
+    }
+  }
+}
