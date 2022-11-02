@@ -13,13 +13,7 @@ name: Build and push a docker image
 
 jobs:
   build:
-    
     runs-on: ubuntu-latest
-
-
-
- 
-
     
     - name: Checkout
       uses: actions/checkout@v2
